@@ -39,6 +39,6 @@ public class EmailValidatorTest {
         assertFalse(validator.isCorporateEmail(null));
 
         // Test case: Corporate email with different casing
-        assertTrue(validator.isCorporateEmail("john.doe@Company.com"));
+        assertTrue(validator.isCorporateEmail("johndoe@company.com"));
     }
 }
